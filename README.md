@@ -1,0 +1,1 @@
+An API made for the face-hunter app using Node/Express.
