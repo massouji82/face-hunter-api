@@ -2,10 +2,10 @@
   "name": "facefinder-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,10 +15,10 @@
     "clarifai": "^2.9.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "knex": "^0.19.4",
+    "knex": "^0.19.5",
     "pg": "^7.12.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.19.4"
   }
 }
